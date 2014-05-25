@@ -1,0 +1,8 @@
+image: test/dockercon
+env:
+  - CI=drone
+  - USE_SYSTEM_GECODE=1
+script:
+  - bundle install
+  - berks install
+  - rake style spec
