@@ -1,4 +1,4 @@
-image: test/dockercon
+image: paulczar/meez
 env:
   - CI=drone
   - USE_SYSTEM_GECODE=1
