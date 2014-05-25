@@ -5,6 +5,11 @@ TODO: Enter the cookbook description here.
 e.g.
 This cookbook makes your favorite breakfast sandwich.
 
+build Status
+------------
+
+[![Build Status](http://drone.paulcz.net/github.com/paulczar/tripping-octo-archer/status.svg?branch=master)](http://drone.paulcz.net/github.com/paulczar/tripping-octo-archer)
+
 Requirements
 ------------
 TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
