@@ -2,6 +2,11 @@
 
 require_relative 'spec_helper'
 
-describe 'default' do
-  it { pending 'write some tests' }
+describe service('docker') do
+  it { should be_enabled }
+  it { should be_running }
+end
+
+describe command('docker images busybox') do
+  it { should return_stdout(/^busybox/) }
 end
