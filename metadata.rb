@@ -11,6 +11,6 @@ version          '0.1.1'
   supports os
 end
 
-%w(docker drone application_nodejs).each do |ckbk|
+%w(docker).each do |ckbk|
   depends ckbk
 end
