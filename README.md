@@ -2,7 +2,7 @@ dockercon Cookbook
 ==================
 TODO: Enter the cookbook description here.
 
-e.g.
+e.g. 
 This cookbook makes your favorite breakfast sandwich.
 
 build Status
