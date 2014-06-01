@@ -10,5 +10,9 @@ platforms:
 
 suites:
   - name: default
-    run_list: recipe[dockercon::default]
+    run_list: 
+      - recipe[dockercon::default]
+      - recipe[dockercon::registry]
     attributes:
+      dockercon:
+        images: ["busybox"]

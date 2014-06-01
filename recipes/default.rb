@@ -7,7 +7,3 @@
 #
 
 include_recipe 'docker::default'
-
-docker_image 'busybox' do
-  action 'pull'
-end

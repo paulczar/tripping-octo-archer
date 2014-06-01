@@ -1,16 +1,16 @@
 # Encoding: utf-8
 name             'dockercon'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'none'
-license          ''
-description      'Installs/Configures dockercon'
+maintainer       'Paul Czarkowski'
+maintainer_email 'paul.czarkowski@rackspace.com'
+license          'Apache2'
+description      'dockercon example cookbook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.0'
+version          '0.1.1'
 
 %w(ubuntu).each do |os|
   supports os
 end
 
-%w(docker).each do |ckbk|
+%w(docker drone application_nodejs).each do |ckbk|
   depends ckbk
 end
